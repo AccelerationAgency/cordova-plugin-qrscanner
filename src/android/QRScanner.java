@@ -1,5 +1,7 @@
 package com.bitpay.cordova.qrscanner;
 
+import androidx.core.app.ActivityCompat;
+
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.FeatureInfo;
@@ -24,7 +26,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import android.hardware.Camera;
 import android.provider.Settings;
-import android.support.v4.app.ActivityCompat;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
